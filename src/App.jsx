@@ -9,6 +9,13 @@ import { Contact } from "../components/Contact";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { Resources } from "../components/Resources";
+import { FinancialServices } from "../components/FinancialServices";
+import { SportsStrategy } from "../components/SportsStrategy";
+import { SupplyChain } from "../components/SupplyChain";
+import { TalentDevelopment } from "../components/TalentDevelopment";
+import { Tech } from "../components/Tech";
+import { WebDevelopment } from "../components/WebDevelopment";
+import { Login } from "../components/Login";
 
 function App() {
   return (
@@ -18,11 +25,18 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/careers" element={<Resources />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/sports" element={<SportsStrategy />} />
+          <Route path="/supply-chain" element={<SupplyChain />} />
+          <Route path="/talent" element={<TalentDevelopment />} />
+          <Route path="/tech" element={<Tech />} />
+          <Route path="/finance" element={<FinancialServices />} />
+          <Route path="/web-development" element={<WebDevelopment />} />
         </Routes>
       </div>
 
