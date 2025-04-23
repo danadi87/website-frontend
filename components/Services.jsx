@@ -7,10 +7,19 @@ import sportsStrategyImage from "../src/assets/sports-strategy.jpg";
 import supplyChainImage from "../src/assets/supply-chain.png";
 import talentDevImage from "../src/assets/TalentDevImg.png";
 import techImage from "../src/assets/tech.jpg";
+import { useNavigate } from "react-router-dom";
 
 export function Services() {
+  const navigate = useNavigate();
+  const handleBackButton = () => {
+    navigate(-1);
+  };
+
   return (
     <div className="main-section">
+      <button onClick={handleBackButton} className="back-button">
+        Back
+      </button>
       <ul>
         <li className="section">
           <div className="section-content">

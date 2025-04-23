@@ -1,9 +1,18 @@
 import React from "react";
 import "../src/styles/About.css";
+import { useNavigate } from "react-router-dom";
 
 export function About() {
+  const navigate = useNavigate();
+  const handleBackButton = () => {
+    navigate(-1);
+  };
+
   return (
     <div className="about">
+      <button onClick={handleBackButton} className="back-button">
+        Back
+      </button>
       <h1>Who we are</h1>
       <p>
         At MD Consulting and Solutions, we are driven by strong values and a
