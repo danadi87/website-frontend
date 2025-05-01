@@ -1,13 +1,12 @@
 import React from "react";
 import "../src/styles/Services.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import webDevImage from "../src/assets/web_development.png";
 import finServImage from "../src/assets/financial-services.png";
 import sportsStrategyImage from "../src/assets/sports-strategy.jpg";
 import supplyChainImage from "../src/assets/supply-chain.png";
 import talentDevImage from "../src/assets/TalentDevImg.png";
 import techImage from "../src/assets/tech.jpg";
-import { useNavigate } from "react-router-dom";
 
 export function Services() {
   const navigate = useNavigate();

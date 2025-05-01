@@ -16,6 +16,8 @@ import { TalentDevelopment } from "../components/TalentDevelopment";
 import { Tech } from "../components/Tech";
 import { WebDevelopment } from "../components/WebDevelopment";
 import { Login } from "../components/Login";
+import { Football } from "../components/Football";
+import { CarlosRodriguez } from "../directory/CarlosRodriguez";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/tech" element={<Tech />} />
           <Route path="/finance" element={<FinancialServices />} />
           <Route path="/web-development" element={<WebDevelopment />} />
+          <Route path="/football" element={<Football />} />
+          <Route path="/carlosrodriguez" element={<CarlosRodriguez />} />
         </Routes>
       </div>
 

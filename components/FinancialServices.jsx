@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "../src/styles/FinancialServices.css";
 
 export function FinancialServices() {
   const navigate = useNavigate();

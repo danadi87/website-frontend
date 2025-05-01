@@ -1,5 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import "../src/styles/SportsStrategy.css";
+import { Football } from "./Football";
 
 export function SportsStrategy() {
   const navigate = useNavigate();
@@ -8,9 +10,22 @@ export function SportsStrategy() {
   };
   return (
     <div>
-      <button onClick={handleBackButton} className="back-button">
-        Back
-      </button>
+      <div className="main-section">
+        <button onClick={handleBackButton} className="back-button">
+          Back
+        </button>
+        <p>Sports:</p>
+        <ul>
+          <li>
+            <Link to="/football">Football</Link>
+          </li>
+          <li>Basketball</li>
+          <li>Tennis</li>
+          <li>Swimming</li>
+          <li>Voleyball</li>
+          <li>Beach voleyball</li>
+        </ul>
+      </div>
     </div>
   );
 }

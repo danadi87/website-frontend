@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "../src/styles/WebDevelopment.css";
 
 export function WebDevelopment() {
   const navigate = useNavigate();
