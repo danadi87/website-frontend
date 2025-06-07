@@ -16,7 +16,7 @@ export function Football() {
       </button>
       <ul>
         <li>
-          <Link to="/carlosrodriguez">Carlos Rodriguez</Link>
+          <Link to="/carlosrodriguez">Carlos Rodríguez López</Link>
         </li>
       </ul>
     </div>

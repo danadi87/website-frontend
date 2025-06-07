@@ -1,6 +1,6 @@
 import React from "react";
 import "../src/styles/directory/CarlosRodriguez.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CarlosProfile from "../src/assets/carlos-rodriguez-profile.png";
 
 export function CarlosRodriguez() {
@@ -16,30 +16,33 @@ export function CarlosRodriguez() {
       </button>
       <div className="section">
         <img className="profile-image" src={CarlosProfile}></img>
-        <h2>Entrenador y Estratega de juego de Futbol</h2>
-        <ul>
-          <li>
-            F.Nacim./Edad: <strong>10/11/1980 (44 años)</strong>
-          </li>
-          <li>
-            Lugar de Nac.: <strong>El Prat de Llobregat</strong>
-          </li>
-          <li>
-            Nacionalidad: <strong>España</strong>
-          </li>
-          <li>
-            Licencia de entrenador:<strong></strong>
-          </li>
-          <li>
-            Media de tiempo como entrenador: <strong></strong>
-          </li>
-          <li>
-            Formación preferida: <strong></strong>
-          </li>
-          <li>
-            Club actual: <strong></strong>
-          </li>
-        </ul>
+        <h1>Carlos Rodríguez López</h1>
+        <div>
+          <h2>Entrenador y Estratega de juego de Futbol</h2>
+          <ul>
+            <li>
+              F.Nacim./Edad: <strong>10/11/1980 (44 años)</strong>
+            </li>
+            <li>
+              Lugar de Nac.: <strong>El Prat de Llobregat</strong>
+            </li>
+            <li>
+              Nacionalidad: <strong>España</strong>
+            </li>
+            <li>
+              Licencia de entrenador:<strong></strong>
+            </li>
+            <li>
+              Media de tiempo como entrenador: <strong></strong>
+            </li>
+            <li>
+              Formación preferida: <strong></strong>
+            </li>
+            <li>
+              Club actual: <strong></strong>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="section">
         <p>Competencias clave:</p>
@@ -73,7 +76,7 @@ export function CarlosRodriguez() {
             durantecada encuentro , para trabajar así de manera coordinada y
             efectiva, tanto a nivel individual como en colectivo.
           </p>
-          <p>
+          <p className="quote">
             "Como entrenador busco constantemente métodos para mejorar el
             rendimiento de mi equipo."
           </p>

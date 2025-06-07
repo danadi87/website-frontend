@@ -7,3 +7,9 @@ img {
 .section {
   display: flex;
 }
+.quote {
+  font-style: italic;
+}
+body {
+  color: antiquewhite;
+}
