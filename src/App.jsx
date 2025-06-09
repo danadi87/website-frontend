@@ -16,6 +16,7 @@ import { TalentDevelopment } from "../components/TalentDevelopment";
 import { Tech } from "../components/Tech";
 import { WebDevelopment } from "../components/WebDevelopment";
 import { Login } from "../components/Login";
+import { Signup } from "../components/Signup";
 import { Football } from "../components/Football";
 import { CarlosRodriguez } from "../directory/CarlosRodriguez";
 
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/resources" element={<Resources />} />

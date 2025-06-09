@@ -1,3 +1,22 @@
 .back-button {
   margin: 70px 40px;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+label {
+  color: black;
+}
+p {
+  color: black;
+}
+a {
+  color: black;
+}
