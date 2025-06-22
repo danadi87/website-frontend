@@ -8,7 +8,7 @@ export function Contact() {
     navigate(-1);
   };
   return (
-    <div>
+    <div className="contact">
       <button onClick={handleBackButton} className="back-button">
         Back
       </button>

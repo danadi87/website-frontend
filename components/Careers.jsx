@@ -9,7 +9,7 @@ export function Careers() {
   };
 
   return (
-    <div>
+    <div className="careers">
       <button onClick={handleBackButton} className="back-button">
         Back
       </button>

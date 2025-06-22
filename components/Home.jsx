@@ -12,7 +12,7 @@ export function Home() {
             We specialize in helping businesses streamline operations, enhance
             performance, and achieve measurable results
           </h4>
-          <p>
+          <p className="home-paragraph">
             At MD Consulting & Solutions, we specialize in unlocking potential —
             from people to projects. Our team brings together seasoned
             professionals with expertise in project management, employee

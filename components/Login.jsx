@@ -41,7 +41,7 @@ export function Login() {
       });
   };
   return (
-    <div>
+    <div className="login">
       <button onClick={handleBackButton} className="back-button">
         Back
       </button>

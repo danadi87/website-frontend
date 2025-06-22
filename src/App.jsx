@@ -19,6 +19,7 @@ import { Login } from "../components/Login";
 import { Signup } from "../components/Signup";
 import { Football } from "../components/Football";
 import { CarlosRodriguez } from "../directory/CarlosRodriguez";
+import { PrivacyPolicy } from "../components/PrivacyPolicy";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/web-development" element={<WebDevelopment />} />
           <Route path="/football" element={<Football />} />
           <Route path="/carlosrodriguez" element={<CarlosRodriguez />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </div>
 

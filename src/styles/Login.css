@@ -9,14 +9,28 @@ form {
 h3 {
   display: flex;
   justify-content: center;
-  color: black;
+  color: white;
 }
 label {
-  color: black;
+  color: white;
 }
-p {
-  color: black;
+.login a {
+  color: white;
 }
-a {
-  color: black;
+.login {
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: whitesmoke;
+  align-items: center;
+}
+.login p {
+  color: white;
+}
+label {
+  color: white;
 }

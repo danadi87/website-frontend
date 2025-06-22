@@ -10,15 +10,17 @@ export function Football() {
   };
 
   return (
-    <div className="main-section">
-      <button onClick={handleBackButton} className="back-button">
-        Back
-      </button>
-      <ul>
-        <li>
-          <Link to="/carlosrodriguez">Carlos Rodríguez López</Link>
-        </li>
-      </ul>
+    <div className="football">
+      <div className="main-section">
+        <button onClick={handleBackButton} className="back-button">
+          Back
+        </button>
+        <ul>
+          <li>
+            <Link to="/carlosrodriguez">Carlos Rodríguez López</Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
