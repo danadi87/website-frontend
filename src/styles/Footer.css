@@ -41,3 +41,10 @@
 .social h3 {
   text-align: left;
 }
+.subscribe{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:8px;
+  margin-top: 16px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
-import "../src/styles/SportsStrategy.css";
+import "@styles/SportsStrategy.css";
 import { Football } from "./Football";
 
 export function SportsStrategy() {

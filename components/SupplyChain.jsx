@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../src/styles/SupplyChain.css";
+import "@styles/SupplyChain.css";
 
 export function SupplyChain() {
   const navigate = useNavigate();

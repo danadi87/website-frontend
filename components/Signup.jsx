@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import "../src/styles/Signup.css";
+import "@styles/Signup.css";
 import { Spinner } from "./Spinner";
 import { API_URL } from "../src/config/config";
 

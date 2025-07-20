@@ -1,12 +1,12 @@
 import React from "react";
-import "../src/styles/Services.css";
+import "@styles/Services.css";
 import { Link, useNavigate } from "react-router-dom";
-import webDevImage from "../src/assets/web_development.png";
-import finServImage from "../src/assets/financial-services.png";
-import sportsStrategyImage from "../src/assets/sports-strategy.jpg";
-import supplyChainImage from "../src/assets/supply-chain.png";
-import talentDevImage from "../src/assets/TalentDevImg.png";
-import techImage from "../src/assets/tech.jpg";
+import webDevImage from "@assets/web_development.png";
+import finServImage from "@assets/financial-services.png";
+import sportsStrategyImage from "@assets/sports-strategy.jpg";
+import supplyChainImage from "@assets/supply-chain.png";
+import talentDevImage from "@assets/TalentDevImg.png";
+import techImage from "@assets/tech.jpg";
 
 export function Services() {
   const navigate = useNavigate();

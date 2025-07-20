@@ -1,25 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Home } from "../components/Home";
-import { About } from "../components/About";
-import { Services } from "../components/Services";
-import { Careers } from "../components/Careers";
-import { Contact } from "../components/Contact";
-import { Navbar } from "../components/Navbar";
-import { Footer } from "../components/Footer";
-import { Resources } from "../components/Resources";
-import { FinancialServices } from "../components/FinancialServices";
-import { SportsStrategy } from "../components/SportsStrategy";
-import { SupplyChain } from "../components/SupplyChain";
-import { TalentDevelopment } from "../components/TalentDevelopment";
-import { Tech } from "../components/Tech";
-import { WebDevelopment } from "../components/WebDevelopment";
-import { Login } from "../components/Login";
-import { Signup } from "../components/Signup";
-import { Football } from "../components/Football";
+import { Home } from "@components/Home";
+import { About } from "@components/About";
+import { Services } from "@components/Services";
+import { Careers } from "@components/Careers";
+import { Contact } from "@components/Contact";
+import { Navbar } from "@components/Navbar";
+import { Footer } from "@components/Footer";
+import { Resources } from "@components/Resources";
+import { FinancialServices } from "@components/FinancialServices";
+import { SportsStrategy } from "@components/SportsStrategy";
+import { SupplyChain } from "@components/SupplyChain";
+import { TalentDevelopment } from "@components/TalentDevelopment";
+import { Tech } from "@components/Tech";
+import { WebDevelopment } from "@components/WebDevelopment";
+import { Login } from "@components/Login";
+import { Signup } from "@components/Signup";
+import { Football } from "@components/Football";
 import { CarlosRodriguez } from "../directory/CarlosRodriguez";
-import { PrivacyPolicy } from "../components/PrivacyPolicy";
+import { PrivacyPolicy } from "@components/PrivacyPolicy";
 
 function App() {
   return (

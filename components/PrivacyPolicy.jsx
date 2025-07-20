@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/styles/PrivacyPolicy.css";
+import "@styles/PrivacyPolicy.css";
 
 export function PrivacyPolicy() {
   return <div className="privacy-policy">

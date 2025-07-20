@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../src/styles/TalentDevelopment.css";
+import "@styles/TalentDevelopment.css";
 
 export function TalentDevelopment() {
   const navigate = useNavigate();

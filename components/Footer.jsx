@@ -1,11 +1,11 @@
 import React from "react";
-import "../src/styles/Footer.css";
+import "@styles/Footer.css";
 import { Link } from "react-router-dom";
-import instagramIcon from "../src/assets/icons-instagram.png";
-import linkedinIcon from "../src/assets/icons-linkedin.png";
-import xIcon from "../src/assets/icons-x.png";
-import youtubeIcon from "../src/assets/icons-youtube.png";
-import copyrightIcon from "../src/assets/icons-copyright.png";
+import instagramIcon from "@assets/icons-instagram.png";
+import linkedinIcon from "@assets/icons-linkedin.png";
+import xIcon from "@assets/icons-x.png";
+import youtubeIcon from "@assets/icons-youtube.png";
+import copyrightIcon from "@assets/icons-copyright.png";
 
 export function Footer() {
   return (
@@ -15,12 +15,12 @@ export function Footer() {
         Stay ahead in a rapidly changing environment. Subscribe to our monthly
         newsletter to find out about the latest developments.
       </p>
-      <form>
+      <form className="subscribe" id="subscribe">
         <input placeholder="Your email address"></input>
         <button>SUBSCRIBE</button>
         <input type="checkbox"></input>
-        <p>
-          *I have read trhe <Link to="/privacy-policy">Privacy Policy</Link> and
+        <p className="privacy">
+          *I have read the <Link to="/privacy-policy">Privacy Policy</Link> and
           agree to its terms.
         </p>
       </form>
