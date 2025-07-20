@@ -10,20 +10,23 @@ import copyrightIcon from "@assets/icons-copyright.png";
 export function Footer() {
   return (
     <div className="footer">
-      <h3>MD Consulting & Solutions</h3>
-      <p>
+      <h2>MD Consulting & Solutions</h2>
+      <p className="text">
         Stay ahead in a rapidly changing environment. Subscribe to our monthly
         newsletter to find out about the latest developments.
       </p>
-      <form className="subscribe" id="subscribe">
-        <input placeholder="Your email address"></input>
-        <button>SUBSCRIBE</button>
-        <input type="checkbox"></input>
-        <p className="privacy">
-          *I have read the <Link to="/privacy-policy">Privacy Policy</Link> and
-          agree to its terms.
-        </p>
-      </form>
+<form>
+  <div className="subscribe-row">
+    <input placeholder="Your email address" />
+    <button type="submit">SUBSCRIBE</button>
+  </div>
+  <div className="subscribe-consent">
+    <input type="checkbox" />
+    <p className="privacy-policy-link">
+      *I have read the <Link to="/privacy-policy">Privacy Policy</Link> and agree to its terms.
+    </p>
+  </div>
+</form>
       <h3 className="social">Let's connect</h3>
       <div className="social-icons">
         <a
