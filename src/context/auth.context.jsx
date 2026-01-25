@@ -53,7 +53,7 @@ function AuthProviderWrapper(props) {
       setIsLoggedIn(false);
       setIsLoading(false);
       setUser(null);
-      navigate("/signup");
+      
     }
   };
   const removeToken = () => {

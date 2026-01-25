@@ -20,6 +20,7 @@ import { Signup } from "@components/Signup";
 import { Football } from "@components/Football";
 import { CarlosRodriguez } from "../directory/CarlosRodriguez";
 import { PrivacyPolicy } from "@components/PrivacyPolicy";
+import { MirelaDragulescu } from "../directory/MirelaDragulescu";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/tech" element={<Tech />} />
           <Route path="/finance" element={<FinancialServices />} />
           <Route path="/web-development" element={<WebDevelopment />} />
+          <Route path="/mireladragulescu" element={<MirelaDragulescu />} />
           <Route path="/football" element={<Football />} />
           <Route path="/carlosrodriguez" element={<CarlosRodriguez />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

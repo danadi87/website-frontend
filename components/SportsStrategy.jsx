@@ -1,31 +1,34 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "@styles/SportsStrategy.css";
-import { Football } from "./Football";
+
 
 export function SportsStrategy() {
   const navigate = useNavigate();
   const handleBackButton = () => {
     navigate(-1);
   };
+
+  const sportsCards=[
+    {title:"Football", route:"/football"},
+    {title:"Basketball", route:"/basketball"},
+    {title:"Tennis", route:"/tennis"},
+    {title:"Swimming", route:"/swimming"},
+    {title:"Voleyball", route:"/voleyball"},
+    {title:"Beach Voleyball", route:"/beach-voleyball"}
+  ];
   return (
-    <div>
       <div className="main-section">
         <button onClick={handleBackButton} className="back-button">
           Back
         </button>
-        <p>Sports:</p>
-        <ul>
-          <li>
-            <Link to="/football">Football</Link>
-          </li>
-          <li>Basketball</li>
-          <li>Tennis</li>
-          <li>Swimming</li>
-          <li>Voleyball</li>
-          <li>Beach voleyball</li>
-        </ul>
+ <div className="cards-container">
+{sportsCards.map((card)=>(
+  <div key={card.title} className="sports-card" onClick={()=>navigate(card.route)}>{card.title}</div>
+))}
+ </div>
+
       </div>
-    </div>
+
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "@styles/WebDevelopment.css";
+import { MirelaDragulescu } from "../directory/MirelaDragulescu";
 
 export function WebDevelopment() {
   const navigate = useNavigate();
@@ -12,6 +13,11 @@ export function WebDevelopment() {
       <button onClick={handleBackButton} className="back-button">
         Back
       </button>
+      <ul>
+        <li>
+          <Link to="/mireladragulescu">Mirela Dragulescu</Link>
+        </li>
+      </ul>
     </div>
   );
 }

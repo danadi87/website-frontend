@@ -63,7 +63,7 @@ export function Signup() {
   return (
     <div className="signup">
       <h1>Signup</h1>
-      <form onSubmit={handleSignupSubmit}>
+      <form onSubmit={handleSignupSubmit} >
         <label className="label">Email</label>
         <input
           type="email"
@@ -73,7 +73,7 @@ export function Signup() {
           onChange={handleEmail}
           disabled={submitting}
           autoComplete="off"
-        ></input>
+        ></input><br/>
         <label className="label">Password</label>
         <input
           type="password"
