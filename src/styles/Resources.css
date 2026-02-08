@@ -11,7 +11,37 @@ h2{
 text-align: center;
 }
 h1{
-  border: 1px;
-  border-style: dashed;
-  border-color: black;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+border-radius: 12px;
+border-color: #020352;
+border-style: solid;
+border-width: 5px;
+margin-top: auto;
+padding: 40px 20px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.8);
+
+}
+.cards-container{
+  display: flex;
+  flex-wrap:wrap;
+  gap:80px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.resource-card{
+  background-color: #020352;
+  border-radius: 12px;
+  padding: 40px 20px;
+  min-width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-weight: 600;
+  font-size: 40px;
+}
+.resource-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.8);
+  background-color: #636381;
 }

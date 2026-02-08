@@ -1,3 +1,8 @@
+.back-button {
+  margin-bottom:20px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
 .main-section {
   margin-top: 50px;
   padding-bottom: 50px;
@@ -76,4 +81,13 @@ ul {
   max-width: 300px;
   height: auto;
   margin-left: 20px;
+}
+.supply-chain{
+   display: flex;
+  width: 40%;
+  flex: 1;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-left: 30px;
 }

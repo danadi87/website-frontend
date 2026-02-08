@@ -15,10 +15,11 @@ export function Services() {
   };
 
   return (
-    <div className="main-section">
+    <div>
       <button onClick={handleBackButton} className="back-button">
         Back
       </button>
+      <div className="main-section">
       <ul>
         <li className="section">
           <div className="section-content">
@@ -70,6 +71,7 @@ export function Services() {
           </div>
         </li>
       </ul>
+    </div>
     </div>
   );
 }
