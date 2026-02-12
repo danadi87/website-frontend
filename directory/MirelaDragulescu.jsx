@@ -2,6 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import MirelaProfile from "../src/assets/IMG_4579.jpg";
 import { ProfilePage } from "../components/ProfilePage";
+import "../src/styles/directory/MirelaDragulescu.css";
+
 export function MirelaDragulescu() {
   const navigate = useNavigate();
 

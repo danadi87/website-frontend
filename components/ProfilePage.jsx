@@ -24,7 +24,7 @@ export function ProfilePage({
       <div className="profile-card fade-in">
         <img className="profile-image" src={image} alt={name} />
         <div className="profile-header">
-          <p className="profile-name">{name}</p>
+          <h1 className="profile-name">{name}</h1>
           <h2 className="profile-title">{title}</h2>
         </div>
       </div>
@@ -54,7 +54,7 @@ export function ProfilePage({
       {certifications.length > 0 && (
         <section className="profile-section slide-up">
           <h3 className="section-title">Certifications</h3>
-          <ul className="projects-list">
+          <ul className="certifications-list">
             {certifications.map((cert) => (
               <li key={cert}>{cert}</li>
             ))}

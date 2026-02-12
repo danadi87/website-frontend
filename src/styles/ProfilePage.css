@@ -15,7 +15,7 @@
   gap: 40px;
   padding: 40px;
   border-radius: 20px;
-  background: #0073e6;
+  background: rgb(3, 18, 49, 0.8);
   box-shadow: 0 5px 20px rgba(37, 99, 235, 0.1);
   align-items: center;
 }
@@ -35,9 +35,9 @@
 }
 
 .profile-name {
-  font-size: 2.8rem;
+  font-size: 50px;
   font-weight: 800;
-  color: #020024;
+  color: white;
   align-items: center;
 }
 h1.profile-name {
@@ -48,7 +48,7 @@ h1.profile-name {
 }
 
 .profile-title {
-  font-size: 1.4rem;
+  font-size: 50px;
   font-weight: 600;
   color: #1e40af;
   margin-top: 6px;
@@ -72,7 +72,8 @@ h1.profile-name {
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 40px;
+  font-size: larger;
 }
 
 .skills-list li {
@@ -81,7 +82,7 @@ h1.profile-name {
   background: #dbeafe;
   color: #1e3a8a;
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   transition: transform 0.2s ease;
 }
 
@@ -102,6 +103,7 @@ h1.profile-name {
   padding: 20px 18px;
   border-radius: 16px;
   box-shadow: 0 5px 15px rgba(37, 99, 235, 0.08);
+  font-size: 1.5rem;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -113,7 +115,7 @@ h1.profile-name {
 }
 
 .projects-list a {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #020024;
   text-decoration: none;
@@ -133,11 +135,13 @@ h1.profile-name {
 .certifications-list li {
   flex: 1 1 280px;
   background: #fff4e6;
-  color: #92400e;
+  color: #020024;
   font-weight: 700;
+
   padding: 18px 16px;
   border-radius: 14px;
   box-shadow: 0 4px 15px rgba(156, 115, 0, 0.1);
+  font-size: 1.5rem;
   transition: transform 0.2s ease;
 }
 
