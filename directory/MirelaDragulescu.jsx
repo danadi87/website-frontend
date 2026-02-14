@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import MirelaProfile from "../src/assets/IMG_4579.jpg";
 import { ProfilePage } from "../components/ProfilePage";
 import "../src/styles/directory/MirelaDragulescu.css";
+import MirelaCV from "../public/MIRELA-DANIELA-DRAGULESCU.pdf";
 
 export function MirelaDragulescu() {
   const navigate = useNavigate();
@@ -40,6 +41,9 @@ export function MirelaDragulescu() {
         "Ironhack Full-Stack Web Development Bootcamp",
         "Agile Project Management Foundations",
       ]}
+      linkedin="https://linkedin.com/in/mirela-daniela-dragulescu-4371a220"
+      github="https://github.com/danadi87"
+      cv="/MIRELA-DANIELA-DRAGULESCU.pdf"
     />
   );
 }
