@@ -1,7 +1,6 @@
 .footer {
-width: calc(100vw + 40px);
-   margin-left: -20px;
-   margin-right: -10px;
+  width: 100%;
+
   padding: 40px 20px;
   box-sizing: border-box;
   display: flex;
@@ -9,7 +8,6 @@ width: calc(100vw + 40px);
   align-items: center;
   background: rgb(83, 80, 80);
   color: whitesmoke;
-  overflow-x: hidden;
 }
 
 .social-icons {
@@ -46,7 +44,7 @@ width: calc(100vw + 40px);
 }
 .subscribe-row {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   gap: 8px;
   width: 100%;
   max-width: 600px;
@@ -73,7 +71,7 @@ width: calc(100vw + 40px);
 .subscribe-consent {
   margin-top: 12px;
   display: flex;
-  align-items:baseline;
+  align-items: baseline;
   text-align: left;
   max-width: 600px;
 }
@@ -83,10 +81,10 @@ width: calc(100vw + 40px);
   color: white;
   font-size: 14px;
 }
-.privacy-policy-link a{
+.privacy-policy-link a {
   font-size: small;
   text-decoration: underline;
 }
-.text{
+.text {
   font-size: 30px;
 }
