@@ -15,18 +15,19 @@ export function Footer() {
         Stay ahead in a rapidly changing environment. Subscribe to our monthly
         newsletter to find out about the latest developments.
       </p>
-<form>
-  <div className="subscribe-row">
-    <input placeholder="Your email address" />
-    <button type="submit">SUBSCRIBE</button>
-  </div>
-  <div className="subscribe-consent">
-    <input type="checkbox" />
-    <p className="privacy-policy-link">
-      *I have read the <Link to="/privacy-policy">Privacy Policy</Link> and agree to its terms.
-    </p>
-  </div>
-</form>
+      <form>
+        <div className="subscribe-row">
+          <input placeholder="Your email address" />
+          <button type="submit">SUBSCRIBE</button>
+        </div>
+        <div className="subscribe-consent">
+          <input type="checkbox" />
+          <p className="privacy-policy-link">
+            *I have read the <Link to="/privacy-policy">Privacy Policy</Link>{" "}
+            and agree to its terms.
+          </p>
+        </div>
+      </form>
       <h3 className="social">Let's connect</h3>
       <div className="social-icons">
         <a
@@ -52,7 +53,7 @@ export function Footer() {
       </div>
       <div className="copyright">
         <img src={copyrightIcon} />
-        <p>2025 MD Consulting & Solutions</p>
+        <p>2026 MD Consulting & Solutions. All rights reserved.</p>
       </div>
     </div>
   );

@@ -24,31 +24,29 @@ import { MirelaDragulescu } from "../directory/MirelaDragulescu";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Navbar />
 
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/resources" element={<Resources />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/sports" element={<SportsStrategy />} />
-          <Route path="/supply-chain" element={<SupplyChain />} />
-          <Route path="/talent" element={<TalentDevelopment />} />
-          <Route path="/tech" element={<Tech />} />
-          <Route path="/finance" element={<FinancialServices />} />
-          <Route path="/web-development" element={<WebDevelopment />} />
-          <Route path="/mireladragulescu" element={<MirelaDragulescu />} />
-          <Route path="/football" element={<Football />} />
-          <Route path="/carlosrodriguez" element={<CarlosRodriguez />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/sports" element={<SportsStrategy />} />
+        <Route path="/supply-chain" element={<SupplyChain />} />
+        <Route path="/talent" element={<TalentDevelopment />} />
+        <Route path="/tech" element={<Tech />} />
+        <Route path="/finance" element={<FinancialServices />} />
+        <Route path="/web-development" element={<WebDevelopment />} />
+        <Route path="/mireladragulescu" element={<MirelaDragulescu />} />
+        <Route path="/football" element={<Football />} />
+        <Route path="/carlosrodriguez" element={<CarlosRodriguez />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
 
       <Footer />
     </div>
